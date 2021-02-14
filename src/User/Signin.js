@@ -60,7 +60,7 @@ class Signin extends Component{
     }
 
     signin = individual =>{
-      return  fetch('http://167.172.143.94/signin',{
+      return  fetch('http://167.172.143.94/api/signin',{
             method:"POST",
             headers:{
                  Accept:"application/JSON",

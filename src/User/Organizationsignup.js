@@ -56,7 +56,7 @@ class Organizationsignup extends Component{
 
     orgsignup = organization =>{
         
-      return  fetch('http://167.172.143.94/orgsignup',{
+      return  fetch('http://167.172.143.94/api/orgsignup',{
             method:"POST",
             headers:{
                  Accept:"application/JSON",
