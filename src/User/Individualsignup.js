@@ -63,7 +63,7 @@ class Individualsignup extends Component{
     }
 
     individualSignup = (individual) =>{
-      return  fetch('http://localhost:8083/signup',{
+      return  fetch('http://167.172.143.94/signup',{
             method:"POST",
             headers:{
                  Accept:"application/JSON",

@@ -60,7 +60,7 @@ class Orgsignin extends Component{
     }
 
     orgsignin = organization =>{
-      return  fetch('http://localhost:8083/orgsignin',{
+      return  fetch('http://167.172.143.94/orgsignin',{
             method:"POST",
             headers:{
                  Accept:"application/JSON",
