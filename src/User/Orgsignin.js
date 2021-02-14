@@ -106,6 +106,7 @@ class Orgsignin extends Component{
                 <p className="forgot-password text-right">
                     Forgot <a href="#">password?</a>
                 </p>
+                
         <SocialLogin/>
      </form>
     )

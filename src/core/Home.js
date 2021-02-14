@@ -3,12 +3,11 @@ import React from 'react'
 const Home = ()=>(
     <div className="jumbotron">
             <h2>
-                Home
+               Brand Tag line
             </h2>
             <p className="lead">
 
-                Welcome to react front end
-
+               Welcome!
             </p>
 
     </div>
